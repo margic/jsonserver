@@ -8,6 +8,15 @@
                     "name": "Field 1"
                 }
             ]
+        },
+        {
+            "id": 2,
+            "name": "Form 2",
+            "fields": [
+                {
+                    "name": "Field 1"
+                }
+            ]
         }
     ]
 }
