@@ -1,8 +1,13 @@
 {
-    "form": [
+    "forms": [
         {
             "id": 1,
-            "name": "field 1"
+            "name": "Form 1",
+            "fields": [
+                {
+                    "name": "Field 1"
+                }
+            ]
         }
     ]
 }
