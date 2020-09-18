@@ -5,16 +5,39 @@
             "name": "Form 1",
             "fields": [
                 {
-                    "name": "Field 1"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Form 2",
-            "fields": [
+                    "key": "firstName",
+                    "label": "First Name",
+                    "order": 1,
+                    "controlType": "TextInputField",
+                    "required": true
+                },
                 {
-                    "name": "Field 1"
+                    "key": "lastName",
+                    "label": "Last Name",
+                    "order": 2,
+                    "controlType": "TextInputField",
+                    "required": true
+                },
+                {
+                    "key": "comment",
+                    "label": "Comment",
+                    "order": 3,
+                    "controlType": "TextInputField"
+                },
+                {
+                    "key": "gender",
+                    "label": "Gender",
+                    "controlType": "DropdownField",
+                    "options": [
+                        {
+                            "key": "male",
+                            "value": "Male"
+                        },
+                        {
+                            "key": "female",
+                            "value": "Female"
+                        }
+                    ]
                 }
             ]
         }
